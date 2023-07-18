@@ -25,10 +25,10 @@ local function GetProcessBar (Atribute)
     return result     
 end
    
-print("=====================================================================")
-print("|")
+print("=====================================================================") print()
+print("|                          FRENTE DO CARTÃO                          ")
 print("|Nome:" .. MONSTER_NAME .. emoji)
-print("|Atributos")
+print("|Atributos:")
 print("|    HP:            " .. GetProcessBar(LifeAtribute))
 print("|    Forca:         " .. GetProcessBar(AttackAtribute))
 print("|    Velocidade:    " .. GetProcessBar (SpeedAtribute))
@@ -37,4 +37,14 @@ print("|    Magia:         ".. GetProcessBar(MagicAtribute))
 print("|    Ninjutsu:      " .. GetProcessBar (NinjutsuAtribute) )
 print("|")
 print("=====================================================================")
+print("                                                                    ")
+print("=====================================================================")
+print("|                          VERSO DO CARTÃO                          ")
+print("|Da onde vem: Jujutsu Kaisen")
+print("|Poder mais forte: Velocidade Imensa")
+print("|cor do cabelo: Branco")
+print("|Caracteristica: Forte")
+print("|Historia: Há mais de mil anos quando era um humano comum que se tornou um rei das madições.")
+print("=====================================================================")
+
 
